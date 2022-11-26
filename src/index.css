@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#fcf5f5, #eff4fd);
+}
+
+/* .heading_style {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border-radius: 50px;
+  color: #868686;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+} */
+
+.main_div {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26 0.1) 0px 4px 16px,
+    rgba(17, 17, 26 0.1) 0px 8px 24px, rgba(17, 17, 26 0.1) 0px 16px 56px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bitter ", serif;
+  text-transform: capitalize;
+  font-size: 32px;
+  text-align: center;
+}
+
+main-heading p {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26 0.05) 0px 1px 0px,
+    rgba(17, 17, 26 0.1) 0px 0px 8px;
+  background-color: #fff;
+  padding: 5%;
+}
+
+.answers {
+  padding: 30px 20px 40px 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  word-spacing: 2px;
+  font-weight: 400;
+  line-height: 1.7;
+  background: #fcf5f5;
+}
+
+/* .main_div:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05, 1.05);
+} */
